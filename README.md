@@ -1,20 +1,20 @@
 ## Members
-Henry Forsyth, Computer Engineering Student (2024)
-rhforsythjr@vt.edu
+Aydin Stewart
+aydins06@vt.edu
 
 ## Mentor
-MENTOR NAME HERE
+Amer Zayegh
 
 ## Current Status
 IN PROGRESS
 
 ## Project Overview
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vehicula, odio eu dictum aliquet, enim elit tempor diam, quis volutpat mi eros ut nisi. Aliquam luctus orci eget accumsan porta. Proin sollicitudin ultricies lacus et varius. Pellentesque tempor vehicula tempus. Integer semper id lorem vehicula tristique. Suspendisse nec placerat libero, eget aliquet eros. Phasellus iaculis quis lorem in ultrices. Nunc lobortis odio at sem pretium dictum. Integer sed tellus quis lorem pretium posuere.
+The goal of this project is to build a fully functional radio frequency single-sideband (SSB) transceiver. The project begins with creating the VFO and control unit using an Arduino Uno R3 and an Si5351 frequency generator. The Arduino code will control the Si5351 and the radio’s user interface, while Si5351 calibration will ensure it generates the correct frequency. Next, I will build the 9 MHz crystal filter to create the desired bandwidth and remove unwanted frequencies. I will then build the audio amplifier to transmit audio through the speaker, followed by the mixer, which combines the RF and oscillator signals for frequency conversion. Next, I will build the transistor-based intermediate frequency (IF) amplifiers to increase the signal level before and after the crystal filter. I will then build and tune the bandpass filter to allow the desired frequency range through while rejecting unwanted signals. After that, I will build the microphone amplifier to increase the microphone signal to the appropriate level for transmission. Finally, I will build the driver and IRF510 power amplifier to increase the transmit signal to the desired QRP power level. Once all stages are complete, I will connect them and test the SSB transceiver in transmit and receive modes.
 
 ## Educational Value Added
 
-Vivamus dapibus iaculis dui. Nullam vitae arcu a nisi elementum semper eu eu velit. Suspendisse vel dictum lacus. Sed facilisis luctus consequat. Donec vulputate eu dolor in molestie. Maecenas pretium sem non tellus facilisis sollicitudin id ut nulla. In condimentum orci nisi, sagittis facilisis neque convallis eget. Duis ut sem cursus, placerat mi pellentesque, mollis eros. Integer efficitur blandit elit, sed egestas sem porta in. Mauris euismod nulla ac tellus tempus, eu egestas dui molestie. Proin faucibus enim quis consequat sodales. Pellentesque eleifend blandit augue et laoreet. Phasellus vel posuere nisi, ac aliquam arcu.
+
 
 ## Tasks
 
